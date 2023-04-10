@@ -22,3 +22,53 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  background-image: url("../images/apple-pie.jpg");
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  height: 750px;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+section p{
+  justify-content: center;
+}
+
+div{
+  text-align: center;
+   }
+
+section{
+  margin-left: 60px;
+}
+
+.small{
+  height: 80px;
+  width: 350px;
+}
+
+ul {
+  text-align: left;
+  list-style: "-";
+}
+
+
+ol{
+  text-align: left;
+  list-style: none;
+  margin-bottom: 60px;
+  
+}
+
+ol > li {
+  counter-increment: listcounter;
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
